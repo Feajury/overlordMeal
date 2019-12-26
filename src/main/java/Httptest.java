@@ -87,7 +87,7 @@ public class Httptest {
             for (int j = 0; j < jsonArray.size(); j++) {
                 JSONObject item = (JSONObject) jsonArray.get(j);
                 String activName = item.getString("activityTitle");
-                if (activName.contains("套餐")){
+                if (activName.contains("人餐")){
                     ItemVo itemVo = new ItemVo();
                     itemVo.setId(item.getString("offlineActivityId"));
                     itemVo.setName(item.getString("activityTitle"));
