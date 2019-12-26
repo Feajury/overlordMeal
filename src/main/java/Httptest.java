@@ -154,7 +154,7 @@ public class Httptest {
         NameValuePair value3 = new BasicNameValuePair("marryStatus","0");
         NameValuePair value4 = new BasicNameValuePair("offlineActivityId",id);
         //不清楚手机号的机制，是否可以去掉
-        NameValuePair value5 = new BasicNameValuePair("phoneNo","18734835109");
+        NameValuePair value5 = new BasicNameValuePair("phoneNo","187****5109");
         NameValuePair value6 = new BasicNameValuePair("usePassCard","0");
         list.add(value1);
         list.add(value2);
